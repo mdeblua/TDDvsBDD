@@ -4,7 +4,9 @@
   "description": "Hand on sobre TDD vs BDD para o time do Bola de Neve Church",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-jasmine": "jasmine",
+    "test": "karma start --single-run",
+    "test-dev": "karma start"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/mdeblua/TDDvsBDD/issues"
   },
-  "homepage": "https://github.com/mdeblua/TDDvsBDD#readme"
+  "homepage": "https://github.com/mdeblua/TDDvsBDD#readme",
+  "devDependencies": {
+    "browserify": "^16.1.1",
+    "jasmine": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-browserify": "^5.2.0",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-jasmine": "^1.1.1",
+    "watchify": "^3.11.0"
+  }
 }
