@@ -1,0 +1,23 @@
+{
+  "name": "tddvsbdd",
+  "version": "1.0.0",
+  "description": "Hand on sobre TDD vs BDD para o time do Bola de Neve Church",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdeblua/TDDvsBDD.git"
+  },
+  "keywords": [
+    "TDD",
+    "BDD"
+  ],
+  "author": "MDEBLUA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdeblua/TDDvsBDD/issues"
+  },
+  "homepage": "https://github.com/mdeblua/TDDvsBDD#readme"
+}
